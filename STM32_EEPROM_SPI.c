@@ -26,7 +26,7 @@ uint8_t EEPROM_StatusByte;
 /**
  * @brief Init EEPROM SPI
  *
- * @param hspi Pointer to SPI struct handler
+ * @param hndlr Pointer to EEPROM struct handler
  */
 void EEPROM_INIT(EEPROM_Handler * hndlr) {
   eeprom_h = hndlr;
