@@ -26,7 +26,7 @@ static void EEPROM_Init(void)
   eepromh.EEPROM_HOLD_GPIO_Port = GPIOB;
   eepromh.EEPROM_WP_Pin = GPIO_PIN_10; // Write protection pin
   eepromh.EEPROM_WP_GPIO_Port = GPIOB;
-  eepromh.EEPROM_PAGESIZE = 128; // Page size accordingly to a documentation of an EEPROM chip
+  eepromh.EEPROM_PAGESIZE = 128; // Page size accordingly to the documentation of an EEPROM chip
   eepromh.SPI = &hspi1;
   EEPROM_INIT(&eepromh);
 }
